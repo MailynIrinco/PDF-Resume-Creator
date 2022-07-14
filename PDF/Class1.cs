@@ -8,7 +8,8 @@ namespace PDF
 {
     public class Class1
     {
-        public string name { get; set; }
+        public DateTime DateToday { get; set; } 
+        public string Name { get; set; }
 
         public int Age { get; set; }    
 
