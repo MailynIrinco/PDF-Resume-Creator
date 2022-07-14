@@ -1,10 +1,11 @@
+using System.Collections.Generic;
 using Newtonsoft.Json;
 
 namespace PDF
 {
     public partial class Form1 : Form
     {
-        private readonly string _path = @"C:\Users\irinc\OneDrive\Documents";
+        
         public Form1()
         {
             InitializeComponent();
@@ -17,20 +18,20 @@ namespace PDF
 
         private void readbtn_Click(object sender, EventArgs e)
         {
-            try
-            {
-                string jsonFromFile;
-                using (var reader = new StreamReader(_path)) 
-                {
-                    jsonFromFile = reader.ReadToEnd();  
-                }
+            
+        }
 
-            }
-            catch (Exception)
+        private void writebtn_Click(object sender, EventArgs e)
+        {
+           Class1 info = new Class1();
             {
-
-                throw;
+                Name = "Mailyn J. Irinco";
+                //Age = 20;
+                //Address = "Kenedaa";
             }
+
+            string JsonOutput = JsonConvert.SerializeObject(info);
+            txtbox.Text = JsonOutput;
         }
     }
 }
