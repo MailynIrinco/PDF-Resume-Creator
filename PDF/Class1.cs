@@ -13,7 +13,7 @@ namespace PDF
 
         public int Age { get; set; }    
 
-        public DateTime DateToday { get; set; } 
+        public DateTime DateOfBirth { get; set; } 
 
         public int Height { get; set; }
 
@@ -23,6 +23,19 @@ namespace PDF
 
         public string FatherName { get; set; }
         public string MotherName { get; set; }
+
+        public string ElementarySchool { get; set; }
+        public string JuniorHS { get; set; }
+
+        public string SeniorHS { get; set; }
+
+        public string College { get; set; }
+
+        public string First { get; set; }
+
+        public string Second { get; set; }
+
+        public string Third { get; set; }
 
     }
 }
