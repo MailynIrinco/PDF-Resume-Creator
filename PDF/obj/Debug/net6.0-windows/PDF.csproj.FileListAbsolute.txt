@@ -18,3 +18,5 @@ C:\Users\irinc\source\repos\PDF\PDF\obj\Debug\net6.0-windows\PDF.pdb
 C:\Users\irinc\source\repos\PDF\PDF\obj\Debug\net6.0-windows\PDF.genruntimeconfig.cache
 C:\Users\irinc\source\repos\PDF\PDF\obj\Debug\net6.0-windows\ref\PDF.dll
 C:\Users\irinc\source\repos\PDF\PDF\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\irinc\source\repos\PDF\PDF\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\irinc\source\repos\PDF\PDF\bin\Debug\net6.0-windows\itextsharp.dll
