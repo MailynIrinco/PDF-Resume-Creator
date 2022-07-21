@@ -13,6 +13,7 @@ namespace PDF
             InitializeComponent();
         }
 
+       
         public int Age { get; private set; }
         public DateTime DateOfBirth { get; private set; }
         public int Weight { get; private set; }
@@ -73,10 +74,17 @@ namespace PDF
         {
             Class1 basicinfo = new Class1();
             {
-
+               
                 Name = "Mailyn";
-                Age = 20;
-                DateOfBirth = new DateTime(2002, 11, 3);
+                {
+                    Age = 20;
+                    {
+                        DateOfBirth = new DateTime(2002, 11, 3);
+                    }
+                }
+                
+                //Age = 20;
+                //DateOfBirth = new DateTime(2002, 11, 3);
                 Height = 160;
                 Weight = 55;
                 Religion = "Catholic";
@@ -96,8 +104,6 @@ namespace PDF
                     
             };
             string result = JsonConvert.SerializeObject(basicinfo);
-            //File.WriteAllText(@"C:\Users\irinc\OneDrive\Documents", result);
-            _ = txtbox.Lines[50];
             txtbox.Text = result;
 
         }
