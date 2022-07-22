@@ -1,6 +1,6 @@
 ﻿namespace PDF
 {
-    partial class Form1
+    partial class createPDFile
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,59 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.writebtn = new System.Windows.Forms.Button();
             this.pdfbutton = new System.Windows.Forms.Button();
-            this.txtbox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // writebtn
-            // 
-            this.writebtn.Location = new System.Drawing.Point(350, 98);
-            this.writebtn.Name = "writebtn";
-            this.writebtn.Size = new System.Drawing.Size(94, 29);
-            this.writebtn.TabIndex = 0;
-            this.writebtn.Text = "Write JSON";
-            this.writebtn.UseVisualStyleBackColor = true;
-            this.writebtn.Click += new System.EventHandler(this.writebtn_Click);
             // 
             // pdfbutton
             // 
-            this.pdfbutton.Location = new System.Drawing.Point(350, 275);
+            this.pdfbutton.BackColor = System.Drawing.Color.AliceBlue;
+            this.pdfbutton.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.pdfbutton.ForeColor = System.Drawing.Color.Black;
+            this.pdfbutton.Location = new System.Drawing.Point(75, 72);
             this.pdfbutton.Name = "pdfbutton";
-            this.pdfbutton.Size = new System.Drawing.Size(94, 29);
+            this.pdfbutton.Size = new System.Drawing.Size(185, 47);
             this.pdfbutton.TabIndex = 1;
-            this.pdfbutton.Text = "Create PDF";
-            this.pdfbutton.UseVisualStyleBackColor = true;
+            this.pdfbutton.Text = "Create PDF File";
+            this.pdfbutton.UseVisualStyleBackColor = false;
             this.pdfbutton.Click += new System.EventHandler(this.readbtn_Click);
             // 
-            // txtbox
-            // 
-            this.txtbox.Location = new System.Drawing.Point(22, 26);
-            this.txtbox.Multiline = true;
-            this.txtbox.Name = "txtbox";
-            this.txtbox.Size = new System.Drawing.Size(322, 334);
-            this.txtbox.TabIndex = 2;
-            // 
-            // Form1
+            // createPDFile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(460, 385);
-            this.Controls.Add(this.txtbox);
+            this.ClientSize = new System.Drawing.Size(340, 209);
             this.Controls.Add(this.pdfbutton);
-            this.Controls.Add(this.writebtn);
-            this.Name = "Form1";
-            this.Text = "PDF Create";
+            this.Name = "createPDFile";
+            this.Text = "Generate Resume in PDF ";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private Button writebtn;
         private Button pdfbutton;
-        private TextBox txtbox;
     }
 }

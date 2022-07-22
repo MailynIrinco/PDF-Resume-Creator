@@ -1,5 +1,4 @@
 C:\Users\irinc\source\repos\PDF\PDF\obj\Debug\net6.0-windows\PDF.csproj.AssemblyReference.cache
-C:\Users\irinc\source\repos\PDF\PDF\obj\Debug\net6.0-windows\PDF.Form1.resources
 C:\Users\irinc\source\repos\PDF\PDF\obj\Debug\net6.0-windows\PDF.csproj.GenerateResource.cache
 C:\Users\irinc\source\repos\PDF\PDF\obj\Debug\net6.0-windows\PDF.AssemblyInfoInputs.cache
 C:\Users\irinc\source\repos\PDF\PDF\obj\Debug\net6.0-windows\PDF.AssemblyInfo.cs
@@ -33,3 +32,4 @@ C:\Users\irinc\source\repos\PDF\PDF\bin\Debug\net6.0-windows\Uno.UI.dll
 C:\Users\irinc\source\repos\PDF\PDF\bin\Debug\net6.0-windows\Uno.Xaml.dll
 C:\Users\irinc\source\repos\PDF\PDF\bin\Debug\net6.0-windows\Uno.dll
 C:\Users\irinc\source\repos\PDF\PDF\obj\Debug\net6.0-windows\PDF.d-bfalse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\irinc\source\repos\PDF\PDF\obj\Debug\net6.0-windows\PDF.createPDFile.resources
