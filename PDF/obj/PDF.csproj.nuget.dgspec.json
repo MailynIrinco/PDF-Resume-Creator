@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[6.0.5, )"
             },
+            "Uno.UI": {
+              "target": "Package",
+              "version": "[4.4.13, )"
+            },
             "iTextSharp": {
               "target": "Package",
               "version": "[5.5.13.3, )"

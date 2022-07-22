@@ -42,12 +42,13 @@ namespace PDF
 
         private void readbtn_Click(object sender, EventArgs e)
         {
-          Document doc = new Document(iTextSharp.text.PageSize.LETTER, 10, 10, 42, 35);
-            PdfWriter write = PdfWriter.GetInstance(doc, new FileStream("Create.pdf", FileMode.Create));
-            doc.Open(); 
-            Paragraph paragraph = new Paragraph(txtbox.Text);
-            doc.Add(paragraph);
-            doc.Close();
+          Document doc = new Document(iTextSharp.text.PageSize.A4);
+            //PdfWriter write = PdfWriter.GetInstance(doc, new FileStream("Create.pdf", FileMode.Create));
+            //doc.Open(); 
+            //Paragraph paragraph = new Paragraph(txtbox.Text);
+            //doc.Add(paragraph);
+            //doc.Close();
+            //MessageBox.Show("PDF file created successfully!");
 
             using (SaveFileDialog sfd = new SaveFileDialog() { Filter = "PDF file|*.pdf", ValidateNames = true })
             {
@@ -59,10 +60,13 @@ namespace PDF
                         PdfWriter.GetInstance(doc, new FileStream(sfd.FileName, FileMode.Create));
                         doc.Open();
                         doc.Add(new iTextSharp.text.Paragraph(txtbox.Text));
+                        //doc.Add()
+                        doc.Close();
+
                     }
                     catch (Exception ex)
                     {
-
+                        
                         //throw;
                     }
                 }
@@ -76,15 +80,8 @@ namespace PDF
             {
                
                 Name = "Mailyn";
-                {
-                    Age = 20;
-                    {
-                        DateOfBirth = new DateTime(2002, 11, 3);
-                    }
-                }
-                
-                //Age = 20;
-                //DateOfBirth = new DateTime(2002, 11, 3);
+                Age = 20;
+                DateOfBirth = new DateTime(2002, 11, 3);
                 Height = 160;
                 Weight = 55;
                 Religion = "Catholic";

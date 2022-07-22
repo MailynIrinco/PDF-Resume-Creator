@@ -12,6 +12,7 @@
     <PackageReference Include="iTextSharp" Version="5.5.13.3" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="System.Text.Json" Version="6.0.5" />
+    <PackageReference Include="Uno.UI" Version="4.4.13" />
   </ItemGroup>
 
 </Project>
